@@ -15,7 +15,7 @@ spring:
     livereload:
       port: 35730
   datasource:
-    url: jdbc:mysql://localhost:3306/board
+    url: jdbc:mysql://localhost:3306/admin
     username: root
     password: Wjddlf12!
 
