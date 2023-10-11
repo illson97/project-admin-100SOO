@@ -1,11 +1,12 @@
 debug: false
 management.endpoints.web.exposure.include: "*"
 
-#logging:
-#  level:
-#    spring.soo: debug
-#    org.springframework.web.servlet: debug
-#    org.hibernate.type.descriptor.sql.BasicBinder: trace
+logging:
+  level:
+    com.single.com.single.projectadmin100soo: debug
+    org.springframework.web.servlet: debug
+    org.hibernate.type.descriptor.sql.BasicBinder: trace
+    web: debug
 
 server:
   port: 8081
